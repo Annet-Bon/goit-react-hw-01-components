@@ -1,0 +1,53 @@
+.profile {
+    text-align: center;
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.description {
+    padding-top: 25px;
+    color: brown;
+}
+
+.avatar {
+    width: 150px;
+    border-style: dotted;
+    border-color: lightcoral;
+    border-width: 7px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.name,
+.tag,
+.location {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.stats {
+    display: flex;
+    color: lightcoral;
+    padding-top: 25px;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+.label {
+    margin-right: 5px;
+}
+
+.quantity {
+    margin-right: 20px;
+}

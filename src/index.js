@@ -1,4 +1,5 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom';
+import App from './App';
 import './index.css';
-import './First/first-index';
+
+ReactDOM.render(<App />, document.querySelector('#root'));

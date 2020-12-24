@@ -1,0 +1,84 @@
+.profile {
+    text-align: center;
+    width: 330px;
+    height: 410px;
+    background-color: #fff;
+    box-shadow: 0 6px 20px 0 #b97a7a, 0 4px 8px 0 #ff6856;
+}
+
+.description {
+    padding-top: 25px;
+}
+
+.avatar {
+    width: 150px;
+    border-style: dotted;
+    border-color: #F08080;
+    border-width: 4px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    font-family: Comfortaa;
+    color: #BC8F8F;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.location {
+    font-family: Comfortaa;
+    color: #BC8F8F;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.tag {
+    font-family: Satisfy;
+    color: #FA8072;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.stats::before {
+    border-top: 1px solid #8c8b8b;
+}
+.stats {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 30px;
+    list-style-type: none;
+    font-family: Comfortaa;
+}
+
+.stats li {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.stats li:last-child {
+    margin-right: 0;
+}
+
+.label {
+    font-size: 10px;
+    color: #BC8F8F;
+}
+
+.quantity {
+    margin-top: 15px;
+    color: #FA8072;
+}

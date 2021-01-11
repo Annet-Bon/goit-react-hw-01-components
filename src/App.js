@@ -13,16 +13,20 @@ import transactions from './components/Transactions/transactions.json';
 export default function App() {
     return (
         <div>
-        <Profile
-            name={user.name}
-            tag={user.tag}
-            location={user.location}
-            avatar={user.avatar}
-            stats={user.stats}
-        />
-        <Statistics title="Upload stats" stats={statisticalData} />
-        <FriendList friends={friends} />
-        <TransactionHistory items={transactions} />
+            <section className="profile">
+                <Profile
+                    name={user.name}
+                    tag={user.tag}
+                    location={user.location}
+                    avatar={user.avatar}
+                    stats={user.stats}
+                />
+                <FriendList friends={friends} />
+            </section>
+            <section>
+                <Statistics title="Upload stats" stats={statisticalData} />
+                <TransactionHistory items={transactions} />
+            </section>
         </div>
     );
 }

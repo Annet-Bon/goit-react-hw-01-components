@@ -8,7 +8,6 @@ import user from './components/Profile/user.json';
 import statisticalData from './components/Statistics/statistical-data.json';
 import friends from './components/FriendList/friends.json';
 import transactions from './components/Transactions/transactions.json';
-//css
 
 export default function App() {
     return (

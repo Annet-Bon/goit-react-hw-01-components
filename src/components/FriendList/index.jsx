@@ -7,11 +7,7 @@ export default function FriendList({ friends }) {
     <ul className={styles.friendlist}>
         {friends.map(({ id, isOnline, avatar, name}) => (
             <li className={styles.item} key={id}>
-                    {isOnline ? (
-                        <span className={styles.statusOn}></span>
-                    ) : (
-                        <span className={styles.statusOff}></span>
-                    )}
+                <span className={isOnline ? styles.statusOn : styles.statusOff}></span>
                 <img className={styles.avatar} src={avatar} alt="" width="48" />
                 <p className={styles.name}>{name}</p>
             </li>
